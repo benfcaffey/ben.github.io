@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+* { box-sizing: border-box}
 /* Header */
 .header {
 	margin: 0; 
@@ -9,12 +10,12 @@
 }
 
 .face { 
-	margin-left: 8%; 
-	width: 85.37%; 
-	height: 85.37%; 
+	display: block;
+	margin-left: 10%; 
+	width: 80%; 
+	height: 80%; 
 	margin-bottom: 0; 
 	padding-bottom: 0; 
-	display: block;
 }
 
 /* Body */
@@ -28,10 +29,10 @@ body {background-color: #e8e8e8; }
 	width: 40%;
 	height: 40%;
 	border-style: solid; 
-	border-width: 5px 20px 10px 20px; 
+	border-width: 10px 10px 10px 20px; 
 	border-color: #ff5f5f; 
 	float: left;
-	margin-left: 8%;
+	margin-left: 10%;
 	margin-top: 0px;
 	padding-top: 0px;
 }
@@ -42,7 +43,7 @@ body {background-color: #e8e8e8; }
 	width: 40%;
 	height: 40%;
 	border-style: solid; 
-	border-width: 5px 20px 10px 20px; 
+	border-width: 10px 20px 10px 10px; 
 	border-color: #ff5f5f; 
 	float: left;
 	margin-top: 0px;
@@ -55,11 +56,11 @@ body {background-color: #e8e8e8; }
 	width: 40%;
 	height: 40%;
 	border-style: solid; 
-	border-width: 10px 20px; 
+	border-width: 10px 10px 20px 20px; 
 	border-color: #ff5f5f; 
 	float: left;
-	margin-left: 8%;
-	margin-bottom: 150px;
+	margin-left: 10%;
+	margin-bottom: 152px;
 }
 
 /* Image Four */
@@ -68,7 +69,7 @@ body {background-color: #e8e8e8; }
 	width: 40%;
 	height: 40%;
 	border-style: solid; 
-	border-width: 10px 20px; 
+	border-width: 10px 20px 20px 10px; 
 	border-color: #ff5f5f; 
 	float: left;
 	margin-bottom: 152px;
@@ -78,6 +79,6 @@ body {background-color: #e8e8e8; }
 
 footer {font-family: 'Open Sans', sans-serif;
 color: #e8e8e8; background-color: #333366; position: fixed; bottom: 0; width: 100%; text-align: center; }
-p.footer { margin: 0px;}
+p.footer { margin: 0px auto;  width: 50%; }
 h3 { margin: 5px 0px;}
 h4 { margin: 15px 0px; }
