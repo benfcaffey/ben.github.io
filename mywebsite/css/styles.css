@@ -82,3 +82,15 @@ color: #e8e8e8; background-color: #333366; position: fixed; bottom: 0; width: 10
 p.footer { margin: 0px auto;  width: 50%; }
 h3 { margin: 5px 0px;}
 h4 { margin: 15px 0px; }
+
+@media only screen and (max-width: 700px) {
+	.face {width:95%; height: 95%; margin-left: 2.5%; }
+	.img_one {width: 95%; height: 95%;margin-left: 2.5%; border-width: 10px 10px 5px 10px;}
+	.img_two {width: 95%; height: 95%;margin-left: 2.5%; border-width: 5px 10px 5px 10px;}
+	.img_three {width: 95%; height: 95%;margin-left: 2.5%; border-width: 5px 10px 5px 10px; margin-bottom: 0;}
+	.img_four {width: 95%; height: 95%;margin-left: 2.5%; border-width: 5px 10px 10px 10px; margin-bottom: 200px; }
+	p.footer {width: 85%;}
+	
+	
+	
+}
