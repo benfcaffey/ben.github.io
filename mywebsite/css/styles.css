@@ -9,7 +9,7 @@
 	clear: none;
 }
 
-.face { 
+.faceweb { 
 	display: block;
 	margin-left: 10%; 
 	width: 80%; 
@@ -17,6 +17,7 @@
 	margin-bottom: 0; 
 	padding-bottom: 0; 
 }
+.facembl {display: none; }
 
 /* Body */
 
@@ -84,7 +85,15 @@ h3 { margin: 5px 0px;}
 h4 { margin: 15px 0px; }
 
 @media only screen and (max-width: 700px) {
-	.face {width:95%; height: 95%; margin-left: 2.5%; }
+	.faceweb {display: none;}
+	
+	.facembl {width:95%; 
+		height: 95%; 
+		margin-left: 2.5%;	
+		display: block;
+		margin-bottom: 0; 
+		padding-bottom: 0; 
+	}
 	.img_one {width: 95%; height: 95%;margin-left: 2.5%; border-width: 10px 10px 5px 10px;}
 	.img_two {width: 95%; height: 95%;margin-left: 2.5%; border-width: 5px 10px 5px 10px;}
 	.img_three {width: 95%; height: 95%;margin-left: 2.5%; border-width: 5px 10px 5px 10px; margin-bottom: 0;}

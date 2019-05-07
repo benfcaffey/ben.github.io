@@ -11,7 +11,7 @@ body {font-family: 'Open Sans', sans-serif;
 	padding: 0;
 	clear: none;
 }
-.face {
+.faceweb {
 	margin-left: auto;
 	margin-right: auto;
 	width: 55%;
@@ -22,6 +22,7 @@ body {font-family: 'Open Sans', sans-serif;
 	margin-top: 0;
 	padding-top: 0;
 }
+.facembl {display: none;}
 h1 {
 	background-color: #Ff5f5f;
 	color: #333366;
@@ -126,7 +127,18 @@ h3 { margin: 5px 0px;}
 h4 { margin: 15px 0px; }
 
 @media only screen and (max-width: 700px) {
-	.face {width:95%; height: 95%; margin-left: 2.5%; }
+	.faceweb {display: none;}
+	.facembl {
+		margin-left: auto;
+	margin-right: auto;
+		width:95%; 
+		height: 95%;
+		margin-bottom: 0;
+	padding-bottom: 0;
+	display: block;
+	margin-top: 0;
+	padding-top: 0;
+	}
 	h1 {width: 95%;}
 	h2 {width: 95%;}
 	p.bodylong {display: none;}
@@ -162,7 +174,7 @@ h4 { margin: 15px 0px; }
 	.albf {width: 95%; border-width: 5px 10px 5px 10px;}
 	.albb {width: 95%; border-width: 5px 10px 5px 10px;}
 	.tkt {width: 95%; border-width: 5px 100px 10px 100px;}
-	p.footer {width: 85%;}
+	p.footer {width: 90%;}
 }
 	
 	
