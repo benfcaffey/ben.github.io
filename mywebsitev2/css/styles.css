@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color: #e8e8e8; }
+
+h5 {color: #333366;}
+
+.face {display: block;
+	width: 80%;
+height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.carousel {
+	display: block;
+	width: 80%;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 100px;
+border-color: #ff5f5f;
+}
+
+.musicbranding {
+	display: block;
+	height: 60%;
+	width: 60%;
+margin-left: auto;
+margin-right: auto;}
+
+.jtbranding {
+	display: block;
+	height: 60%;
+	width: 60%;
+margin-left: auto;
+margin-right: auto;}
+
+.typeandmeaning {
+	display: block;
+	height: 60%;
+	width: 60%;
+margin-left: auto;
+margin-right: auto;}
+
+.alignment {
+	display: block;
+	height: 60%;
+	width: 60%;
+margin-left: auto;
+margin-right: auto;}
+
+footer {font-family: 'Open Sans', sans-serif;
+color: #e8e8e8; background-color: #333366; position: fixed; bottom: 0; width: 100%; text-align: center; }
+p.footer { margin: 0px auto;  width: 50%; }
+h3 { margin: 5px 0px;}
+h4 { margin: 15px 0px; }
+
+@media only screen and (max-width: 700px) {
+	.face {width: 100%; height: 100%;}
+	.carousel {width: 100%;}
+	.musicbranding {width: 90%; height: 90%}
+	.jtbranding {width: 90%; height: 90%}
+	.typeandmeaning {width: 90%; height: 90%}
+	.alignment {width: 90%; height: 90%}
+	
+	
+	
+	
+	
+	
+	
+}
